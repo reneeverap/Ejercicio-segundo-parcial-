@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(0, 228, 228);
+}
+.principal{
+    background-color: rgba(142, 204, 255, 0.744);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+   
+.azul {
+    background-color: #2660e7;
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    display: inline-block;
+ }
+.rosa {
+    background-color: #f782c2;
+    width: 102%;
+    padding: 20px;
+    margin: 5px 0;
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: column;
+}
+ 
+
+ .verde {
+    background-color: #40ef6c;
+    width: 102%;
+    padding: 20px;
+    margin: 5px 0;
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: column ;
+ }
+
+
+ .container-wrapper {
+    display: flex; /* use flexbox layout */
+  }
+  
+  .container-block {
+    display: flex;
+    flex-direction: column; /* align containers vertically */
+    margin-right: 20px; /* add some spacing between blocks */
+  }
+  
+  .container {
+    border: 1px solid #00000000; /* add a border to the containers for visualization */
+    padding: 10px;
+    margin-bottom: 10px; /* add some margin between containers */
+    width: 100%; /* set the width to fill its parent element */
+  }
+  
+ 
+    
