@@ -33,26 +33,9 @@ body{
     margin: 5px 0;
     display: inline-block;
     vertical-align: top;
-    flex-direction: column ;
+    flex-direction:column ;
  }
 
 
- .container-wrapper {
-    display: flex; /* use flexbox layout */
-  }
-  
-  .container-block {
-    display: flex;
-    flex-direction: column; /* align containers vertically */
-    margin-right: 20px; /* add some spacing between blocks */
-  }
-  
-  .container {
-    border: 1px solid #00000000; /* add a border to the containers for visualization */
-    padding: 10px;
-    margin-bottom: 10px; /* add some margin between containers */
-    width: 100%; /* set the width to fill its parent element */
-  }
-  
  
     
